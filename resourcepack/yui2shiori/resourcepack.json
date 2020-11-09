@@ -1,0 +1,38 @@
+{
+  "id": "yui2shiori",
+  "version": "1.0.0",
+  "name": "栞",
+  "author": "SonodaHanami",
+  "description": "将八木唯改为栞。",
+  "preview": "preview.webp",
+  "dependencies": {
+    "majsoul_plus": "^2.0.0"
+  },
+  "replace": [
+    {
+      "from": "extendRes/charactor/bamuwei_WSJ/bighead.png",
+      "to": "extendRes/charactor/shiori/bighead.png",
+      "all-servers": true
+    },
+    {
+      "from": "extendRes/charactor/bamuwei_WSJ/full.png",
+      "to": "extendRes/charactor/shiori/full.png",
+      "all-servers": true
+    },
+    {
+      "from": "extendRes/charactor/bamuwei_WSJ/half.png",
+      "to": "extendRes/charactor/shiori/half.png",
+      "all-servers": true
+    },
+    {
+      "from": "extendRes/charactor/bamuwei_WSJ/smallhead.png",
+      "to": "extendRes/charactor/shiori/smallhead.png",
+      "all-servers": true
+    },
+    {
+      "from": "extendRes/charactor/bamuwei_WSJ/waitingroom.png",
+      "to": "extendRes/charactor/shiori/waitingroom.png",
+      "all-servers": true
+    }
+  ]
+}

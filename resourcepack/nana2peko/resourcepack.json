@@ -1,0 +1,38 @@
+{
+  "id": "nana2peko",
+  "version": "1.0.0",
+  "name": "佩可",
+  "author": "SonodaHanami",
+  "description": "将白石奈奈改为佩可莉姆。",
+  "preview": "preview.webp",
+  "dependencies": {
+    "majsoul_plus": "^2.0.0"
+  },
+  "replace": [
+    {
+      "from": "extendRes/charactor/baishinainai/bighead.png",
+      "to": "extendRes/charactor/peko/bighead.png",
+      "all-servers": true
+    },
+    {
+      "from": "extendRes/charactor/baishinainai/full.png",
+      "to": "extendRes/charactor/peko/full.png",
+      "all-servers": true
+    },
+    {
+      "from": "extendRes/charactor/baishinainai/half.png",
+      "to": "extendRes/charactor/peko/half.png",
+      "all-servers": true
+    },
+    {
+      "from": "extendRes/charactor/baishinainai/smallhead.png",
+      "to": "extendRes/charactor/peko/smallhead.png",
+      "all-servers": true
+    },
+    {
+      "from": "extendRes/charactor/baishinainai/waitingroom.png",
+      "to": "extendRes/charactor/peko/waitingroom.png",
+      "all-servers": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bgm2pcr",
+  "version": "1.0.0",
+  "name": "PCR背景音乐",
+  "author": "SonodaHanami",
+  "description": "将背景音乐改为PCR背景音乐。",
+  "preview": "preview.png",
+  "dependencies": {
+    "majsoul_plus": "^2.0.0"
+  },
+  "replace": [
+    {
+      "from": "audio/music/lobby.mp3",
+      "to": "lobby.mp3",
+      "all-servers": true
+    }
+  ]
+}
